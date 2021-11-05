@@ -1,0 +1,5 @@
+d = int(input("Days: "))
+h = float(input("Hours: "))
+m = float(input("Minutes: "))
+s = float(input("Seconds: "))
+print(d* 86400 + h*3600 + m*60 +s)
